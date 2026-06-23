@@ -9,9 +9,6 @@ dependencies {
     testFixturesImplementation(libs.slf4j)
 
     testImplementation(libs.mock.clock)
-    // TODO: other modules currently depend on ThreadModeTestBaseJUnit4
-    //  remove after migration to JUnit 6 is completed
-    testCompileOnly(libs.junit)
 }
 
 test {
